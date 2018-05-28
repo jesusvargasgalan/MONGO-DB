@@ -31,7 +31,7 @@ WriteResult({ "nInserted" : 1 })
 WriteResult({ "nInserted" : 1 })
 ```
 <h2>3.2 Modificar</h2>
-<img src=./imagenes/modificar.JPG width=600px>
+<img src=./imagenes/modificar.PNG width=600px>
 
 <h2>3.3 Eliminar</h2>
 

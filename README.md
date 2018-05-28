@@ -38,6 +38,7 @@ MongoDB Enterprise > db.biblioteca.remove({nombre: "Spyro"})
 WriteResult({ "nRemoved" : 1 })
 ```
 <h1>4 Crear un índica sobre un campo de la colección</h1>
+```console
 MongoDB Enterprise > db.biblioteca.createIndex({videojuego: 1})
 {
         "createdCollectionAutomatically" : false,
@@ -45,5 +46,6 @@ MongoDB Enterprise > db.biblioteca.createIndex({videojuego: 1})
         "numIndexesAfter" : 2,
         "ok" : 1
 }
+```
 <h1>5. Realizar consultas en las que utilices mayor que, igual que, menor que.</h1>
 <h2>5.1 </h2>

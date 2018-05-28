@@ -34,11 +34,13 @@ WriteResult({ "nInserted" : 1 })
 
 
 <h2>3.3 Eliminar</h2>
+
 ```console
 > MongoDB Enterprise > db.biblioteca.remove({nombre: "Spyro"})
 WriteResult({ "nRemoved" : 1 })
 ```
 <h1>4 Crear un índica sobre un campo de la colección</h1>
+
 ```console
 > MongoDB Enterprise > db.biblioteca.createIndex({videojuego: 1})
 {

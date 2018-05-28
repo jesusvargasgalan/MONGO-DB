@@ -23,11 +23,11 @@ WriteResult({ "nInserted" : 1 })
 WriteResult({ "nInserted" : 1 })
 > MongoDB Enterprise > db.biblioteca.insert({nombre: "Mario", plataforma: "Wii",desarrolladora: "Nintendo")
 WriteResult({ "nInserted" : 1 })
-MongoDB Enterprise > db.biblioteca.insert({nombre: "Zelda", plataforma: "Wii",pegi:3)
+>MongoDB Enterprise > db.biblioteca.insert({nombre: "Zelda", plataforma: "Wii",pegi:3)
 WriteResult({ "nInserted" : 1 })
-MongoDB Enterprise > db.biblioteca.insert({nombre: "Call of Duty", plataforma: "Playstation",pegi:16)
+>MongoDB Enterprise > db.biblioteca.insert({nombre: "Call of Duty", plataforma: "Playstation",pegi:16)
 WriteResult({ "nInserted" : 1 })
-MongoDB Enterprise > db.biblioteca.insert({nombre: "Tetris", plataforma: "GameBoy",pegi:3)
+>MongoDB Enterprise > db.biblioteca.insert({nombre: "Tetris", plataforma: "GameBoy",pegi:3)
 WriteResult({ "nInserted" : 1 })
 ```
 <h2>3.2 Modificar</h2>
@@ -35,12 +35,12 @@ WriteResult({ "nInserted" : 1 })
 
 <h2>3.3 Eliminar</h2>
 ```console
-MongoDB Enterprise > db.biblioteca.remove({nombre: "Spyro"})
+>MongoDB Enterprise > db.biblioteca.remove({nombre: "Spyro"})
 WriteResult({ "nRemoved" : 1 })
 ```
 <h1>4 Crear un índica sobre un campo de la colección</h1>
 ```console
-MongoDB Enterprise > db.biblioteca.createIndex({videojuego: 1})
+>MongoDB Enterprise > db.biblioteca.createIndex({videojuego: 1})
 {
         "createdCollectionAutomatically" : false,
         "numIndexesBefore" : 1,

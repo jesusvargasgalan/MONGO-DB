@@ -39,7 +39,7 @@ WriteResult({ "nInserted" : 1 })
 > MongoDB Enterprise > db.biblioteca.remove({nombre: "Spyro"})
 WriteResult({ "nRemoved" : 1 })
 ```
-<h1>4 Crear un índica sobre un campo de la colección</h1>
+<h1>4 Crear un índicE sobre un campo de la colección</h1>
 
 ```console
 > MongoDB Enterprise > db.biblioteca.createIndex({videojuego: 1})
@@ -51,4 +51,19 @@ WriteResult({ "nRemoved" : 1 })
 }
 ```
 <h1>5. Realizar consultas en las que utilices mayor que, igual que, menor que.</h1>
-<h2>5.1 </h2>
+<h2>5.1 Muéstrame aquellos juegos cuyo PEGI sea mayor a 3</h2>
+<img src=./imagenes/mayor.PNG width=600px>
+<br/>
+<h2>5.2 Muéstrame aquellos juegos cuyo PEGI sea menor que 10</h2>
+<img src=./imagenes/menor.PNG width=600px>
+<br/>
+<h2>5.3 Muéstrame aquellos juegos cuyo PEGI sea igual que 16</h2>
+<img src=./imagenes/igual.PNG width=600px>
+<br/>
+<h1>6. Realizar una consulta en la que los documentos se muestren ordenados y se limite el número de mostrados.</h1>
+<img src=./imagenes/6.PNG width=600px>
+<br/>
+<h1>7.Realizar una consulta con agrupamiento y una función para mostrar la media, o suma, o la que tú decidas.</h1>
+Al no haber juegos que se encuentren en la misma plataforma que tengan pegi no hace la media pero la consulta está bien
+<img src=./imagenes/media.PNG width=600px>
+<br/>

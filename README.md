@@ -8,9 +8,10 @@
 switched to db videojuegos
 ```
 <h1>2.Tener una colección</h1>
+
 ```console
 > MongoDB Enterprise > db.createCollection('biblioteca')
-{ "ok" : 1 }
+>{ "ok" : 1 }
 ```
 <h1>3.Insertar,modificar y borrar documentos en la colección</h1>
 <h2>3.1 Insertar</h2>

@@ -39,7 +39,7 @@ WriteResult({ "nInserted" : 1 })
 > MongoDB Enterprise > db.biblioteca.remove({nombre: "Spyro"})
 WriteResult({ "nRemoved" : 1 })
 ```
-<h1>4 Crear un índicE sobre un campo de la colección</h1>
+<h1>4 Crear un índice sobre un campo de la colección</h1>
 
 ```console
 > MongoDB Enterprise > db.biblioteca.createIndex({videojuego: 1})
